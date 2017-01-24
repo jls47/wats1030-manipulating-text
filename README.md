@@ -118,3 +118,7 @@ Kuno: 25
 Vi: press esc to enter reading mode, then :set number
 emacs: alt-x linum-mode
 * Explore the Emacs file browser mode. Describe how it works here.
+It works a bit like file explorer would without graphics or mouse controls.  It lists files with dates/times of modification, extensions, and file sizes in bytes.  It takes functions that are 
+done by mouse more generically and assigns everything a specific key command, sort of like how the regular emacs text editor does.  Instead of simply selecting a file, one has to select it for a 
+specific purpose (such as flagging for deletion, THEN deleting them, or using e/o to visit a file either on the current or a new buffer).
+It's more or less if file explorer was in shell and replaced commands like -rm with ctrl+key combinations.
