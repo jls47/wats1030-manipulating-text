@@ -115,4 +115,6 @@ Kuno: 25
 
 * Play Tetris in Emacs. Add a screenshot of you playing Tetris in Emacs to this repository (possibly using SCP to transfer the file, or uploading the file in another way).
 * How do you turn on line numbering in Vi? Emacs? (Type your answer here.)
+Vi: press esc to enter reading mode, then :set number
+emacs: alt-x linum-mode
 * Explore the Emacs file browser mode. Describe how it works here.
